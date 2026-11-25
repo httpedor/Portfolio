@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Pedro Henrique - Dev</title>
+        <meta
+            name="description"
+            content="Pedro Henrique Nascimento Alvares, desenvolvedor full stack em Toledo, PR."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="wrap bar">
+                <a class="logo" href="#top">httpedro</a>
+                <nav>
+                    <a href="#projects" data-i18n="nav.projects"></a>
+                    <a href="#experience" data-i18n="nav.experience"></a>
+                    <a href="#about" data-i18n="nav.about"></a>
+                    <a href="#contact" data-i18n="nav.contact"></a>
+                    <div
+                        class="lang"
+                        role="group"
+                        aria-label="Idioma / Language"
+                    >
+                        <button
+                            type="button"
+                            data-lang="pt"
+                            aria-pressed="false"
+                        >
+                            PT
+                        </button>
+                        <button
+                            type="button"
+                            data-lang="en"
+                            aria-pressed="false"
+                        >
+                            EN
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main id="top">
+            <div class="wrap">
+                <div class="hero">
+                    <div class="tag" data-i18n="hero.tag"></div>
+                    <h1>Pedro Henrique</h1>
+                    <p data-i18n="hero.text"></p>
+                    <div class="links">
+                        <a
+                            class="btn primary"
+                            href="#projects"
+                            data-i18n="hero.cta"
+                        ></a>
+                        <a
+                            class="btn"
+                            href="https://github.com/httpedor"
+                            target="_blank"
+                            rel="noopener"
+                            >GitHub</a
+                        >
+                        <a
+                            class="btn"
+                            href="https://www.fiverr.com/httpedro_dev/"
+                            target="_blank"
+                            rel="noopener"
+                            >Fiverr</a
+                        >
+                    </div>
+                </div>
+
+                <section id="projects">
+                    <h2 data-i18n="projects.title"></h2>
+
+                    <div class="featured">
+                        <a
+                            class="card"
+                            href="https://icebreak.fun/"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <div class="url">icebreak.fun</div>
+                            <h3>Icebreak</h3>
+                            <p data-i18n="projects.icebreak"></p>
+                            <div class="chips">
+                                <span class="chip">golang</span>
+                                <span class="chip">websocket</span>
+                                <span class="chip">alpinejs</span>
+                                <span class="chip">postgresql</span>
+                                <span class="chip">linux</span>
+                            </div>
+                        </a>
+                        <a
+                            class="card"
+                            href="https://pactsmp.com.br/"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <div class="url">pactsmp.com.br</div>
+                            <h3>PactSMP</h3>
+                            <p data-i18n="projects.pact"></p>
+                            <div class="chips">
+                                <span class="chip">golang</span>
+                                <span class="chip">linux</span>
+                                <span class="chip">sqlite</span>
+                                <span class="chip">java</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <ul class="repos">
+                        <li>
+                            <a
+                                href="https://github.com/httpedor/WorldPlanner"
+                                target="_blank"
+                                rel="noopener"
+                            >
+                                <span class="name">WorldPlanner</span
+                                ><span
+                                    class="desc"
+                                    data-i18n="repo.worldplanner"
+                                ></span
+                                ><span class="lng">Java</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/httpedor/RPGDamageOverhaul"
+                                target="_blank"
+                                rel="noopener"
+                            >
+                                <span class="name">RPGDamageOverhaul</span
+                                ><span
+                                    class="desc"
+                                    data-i18n="repo.rpgdamage"
+                                ></span
+                                ><span class="lng">Java</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/httpedor/ClaimsNRaids"
+                                target="_blank"
+                                rel="noopener"
+                            >
+                                <span class="name">ClaimsNRaids</span
+                                ><span
+                                    class="desc"
+                                    data-i18n="repo.claims"
+                                ></span
+                                ><span class="lng">Java</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/httpedor/GearSockets"
+                                target="_blank"
+                                rel="noopener"
+                            >
+                                <span class="name">GearSockets</span
+                                ><span class="desc" data-i18n="repo.gear"></span
+                                ><span class="lng">Java</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/httpedor/Electrostatic"
+                                target="_blank"
+                                rel="noopener"
+                            >
+                                <span class="name">Electrostatic</span
+                                ><span
+                                    class="desc"
+                                    data-i18n="repo.electro"
+                                ></span
+                                ><span class="lng">C</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/httpedor/PersonalMoneyTracker"
+                                target="_blank"
+                                rel="noopener"
+                            >
+                                <span class="name">PersonalMoneyTracker</span
+                                ><span
+                                    class="desc"
+                                    data-i18n="repo.money"
+                                ></span
+                                ><span class="lng">C#, MAUI</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/httpedor/apuracao-tse"
+                                target="_blank"
+                                rel="noopener"
+                            >
+                                <span class="name">apuracao-tse</span
+                                ><span class="desc" data-i18n="repo.tse"></span
+                                ><span class="lng">HTML</span></a
+                            >
+                        </li>
+                    </ul>
+                    <a
+                        class="more"
+                        href="https://github.com/httpedor?tab=repositories"
+                        target="_blank"
+                        rel="noopener"
+                        data-i18n="projects.more"
+                    ></a>
+                </section>
+
+                <section id="experience">
+                    <h2 data-i18n="exp.title"></h2>
+
+                    <div class="job">
+                        <div class="when" data-i18n="exp.maxicon.when"></div>
+                        <div>
+                            <h3>Full Stack Developer</h3>
+                            <div class="where">
+                                Maxicon Sistemas - Toledo, PR
+                            </div>
+                            <ul>
+                                <li data-i18n="exp.maxicon.1"></li>
+                                <li data-i18n="exp.maxicon.2"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <div class="when" data-i18n="exp.freela.when"></div>
+                        <div>
+                            <h3 data-i18n="exp.freela.role"></h3>
+                            <div
+                                class="where"
+                                data-i18n="exp.freela.where"
+                            ></div>
+                            <ul>
+                                <li data-i18n="exp.freela.1"></li>
+                                <li data-i18n="exp.freela.2"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <div class="when" data-i18n="exp.pyxis.when"></div>
+                        <div>
+                            <h3>Web Developer</h3>
+                            <div class="where">Pyxis Brasil - Toledo, PR</div>
+                            <ul>
+                                <li data-i18n="exp.pyxis.1"></li>
+                                <li data-i18n="exp.pyxis.2"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section id="skills">
+                    <h2 data-i18n="skills.title"></h2>
+                    <div class="skills">
+                        <div>
+                            <h3 data-i18n="skills.lang"></h3>
+                            <ul>
+                                <li>Java</li>
+                                <li>TypeScript / JavaScript</li>
+                                <li>C / C++</li>
+                                <li>C#</li>
+                                <li>Python</li>
+                                <li>Lua</li>
+                                <li>SQL, PL/SQL</li>
+                                <li>GoLang</li>
+                                <li>GdScript</li>
+                                <li>Zig (kinda not really)</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Web</h3>
+                            <ul>
+                                <li>Angular</li>
+                                <li>React</li>
+                                <li>Vue.js</li>
+                                <li>Node.js, ExpressJS</li>
+                                <li>Spring Boot</li>
+                                <li>REST APIs</li>
+                                <li>WebAssembly</li>
+                                <li>AlpineJS</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 data-i18n="skills.other"></h3>
+                            <ul>
+                                <li>Oracle, SQL</li>
+                                <li>MongoDB, Redis</li>
+                                <li>OpenGL, Unity</li>
+                                <li>WinAPI, WinForms, Swing</li>
+                                <li>FabricMC, Forge, NeoForge, Mixin</li>
+                                <li>AWS, Google Cloud</li>
+                                <li>Git, Linux</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="about" class="about">
+                    <h2 data-i18n="about.title"></h2>
+                    <p data-i18n="about.1"></p>
+                    <p data-i18n="about.2"></p>
+                    <div class="facts">
+                        <span><b data-i18n="about.loc.k"></b> Toledo, PR</span>
+                        <span
+                            ><b data-i18n="about.edu.k"></b>
+                            <span data-i18n="about.edu.v"></span
+                        ></span>
+                        <span
+                            ><b data-i18n="about.langs.k"></b>
+                            <span data-i18n="about.langs.v"></span
+                        ></span>
+                    </div>
+                </section>
+
+                <section id="contact" class="contact">
+                    <h2 data-i18n="contact.title"></h2>
+                    <h3 data-i18n="contact.text"></h3>
+                    <div class="links">
+                        <a
+                            class="btn primary"
+                            href="mailto:httpedor.dev@gmail.com"
+                            >httpedor.dev@gmail.com</a
+                        >
+                        <a
+                            class="btn"
+                            href="https://github.com/httpedor"
+                            target="_blank"
+                            rel="noopener"
+                            >GitHub</a
+                        >
+                        <a
+                            class="btn"
+                            href="https://www.fiverr.com/httpedro_dev/"
+                            target="_blank"
+                            rel="noopener"
+                            >Fiverr</a
+                        >
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div class="wrap">
+                Pedro Henrique Nascimento Alvares - <span id="year"></span>
+            </div>
+        </footer>
+
+        <script src="lang.js"> </script>
+    </body>
+</html>
